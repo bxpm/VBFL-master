@@ -38,3 +38,4 @@ class Mnist_CNN(nn.Module):
 		tensor = self.fc2(tensor)
 		return tensor
 
+
