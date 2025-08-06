@@ -820,3 +820,5 @@ if __name__ == "__main__":
             snapshot_file_path = f"{network_snapshot_save_path}/snapshot_r_{comm_round}"
             print(f"Saving network snapshot to {snapshot_file_path}")
             pickle.dump(devices_in_network, open(snapshot_file_path, "wb"))
+
+#奥利弗
